@@ -51,9 +51,13 @@ Botão "SORTEAR": Ao clicar nesse botão, um popup é aberto exibindo a página 
 
 Verificação de bloqueador de pop-ups: Antes de abrir um popup, é feita uma verificação para detectar se o bloqueador de pop-ups está ativado no navegador do usuário. Se estiver ativado, uma mensagem de alerta é exibida solicitando que o usuário desative-o para permitir a abertura do popup.
 
-|![Imagem 2](https://i.imgur.com/27BAibF.png)  |
-| :---: |
-| O sitema tambem permite uma busca personalizada por nome utilizando o JPA |
+
+| ![Imagem 1](https://i.imgur.com/27BAibF.png) | ![Imagem 2](https://i.imgur.com/jb5DhaH.png) |
+| :------------------------------------------: | :------------------------------------------: |
+|               O sitema tambem permite uma busca personalizada por nome utilizando o JPA           |             Tela de sorteio          |
+
+
+
 
 
 
