@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RIFA - Cadastrar</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <h1>RIFA - Cadastrar</h1>
+    <form id="formcadastrouser">
+        <div class="mb-3">
+            <label for="numero" class="form-label">NÚMERO</label>
+            <input type="number" class="form-control" id="numero" readonly>
+        </div>
+        <div class="mb-3">
+            <label for="nome" class="form-label">NOME</label>
+            <input type="text" class="form-control" id="nome" placeholder="Exemplo: Meu Nome da Silva" oninput="converterParaMaiusculas(this)">
+        </div>
+        <div class="mb-3">
+            <label for="telefone" class="form-label">TELEFONE</label>
+            <input type="tel" class="form-control" id="telefone" placeholder="Exemplo: (00) 00000-0000" oninput="converterParaMaiusculas(this)">
+        </div>
+        <div class="mb-3">
+            <label for="valor" class="form-label">VALOR</label>
+            <input type="text" class="form-control" id="valor" placeholder="Exemplo: 100.00"oninput="converterParaMaiusculas(this)">
+        </div>
+    </form>
+    <button type="button" class="btn btn-primary btn-cadastrar" onclick="salvarUsuario()">CADASTRAR</button>
+</div>
+<script src="../scriptCode/cadastrar.js"></script>
+</body>
+</html>

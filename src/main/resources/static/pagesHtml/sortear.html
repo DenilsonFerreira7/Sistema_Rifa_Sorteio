@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RIFA - Sortear</title>
+  <link rel="stylesheet" href="../styles/gif.css">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/customSortear.css">
+</head>
+<body>
+<div class="container">
+  <h1 id="parabens" style="display: none;">PARABÉNS</h1>
+  <div class="resultado-sorteio">
+    <div id="loading" class="loading-container">
+      <img src="../img/sb-loading.gif" alt="Imagem GIF">
+    </div>
+    <div id="dados" style="display: none;">
+      <h2>Número Sorteado: <span id="numeroSorteado"></span></h2>
+      <p>Nome: <span id="nome"></span></p>
+      <p>Telefone: <span id="telefone"></span></p>
+      <img src="../img/giphy.gif" alt="Imagem GIF" id="giphy" style="display: none;">
+      <img src="../img/confete.gif" alt="Imagem GIF" class="gifConfetti-position" id="confetti" style="display: none;">
+    </div>
+  </div>
+</div>
+<script src="../scriptCode/sortear.js"></script>
+<script>
+  // Mostrar os dados do sorteio e a imagem "giphy.gif" após 5 segundos
+  setTimeout(function() {
+    document.getElementById("parabens").style.display = "block";
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("dados").style.display = "block";
+    document.getElementById("giphy").style.display = "block";
+    document.getElementById("confetti").style.display = "block";
+  }, 5000);
+</script>
+</body>
+</html>

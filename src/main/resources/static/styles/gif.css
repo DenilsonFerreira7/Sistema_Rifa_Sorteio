@@ -1,0 +1,19 @@
+/* gif.css */
+.gifConfetti-position {
+  position: absolute;
+  left: 26%;
+  top: 20px;
+  bottom: 0;
+  transform: translateX(-20%);
+}
+
+/* customSortear.css */
+.container {
+  position: relative;
+}
+.loading-container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}

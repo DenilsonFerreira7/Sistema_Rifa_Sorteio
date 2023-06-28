@@ -1,0 +1,12 @@
+.resultado-sorteio {
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+   margin-left: 200px;
+  text-align: left;
+}
+
+.resultado-sorteio p {
+  font-size: 30px;
+  margin-top: 1px;
+  margin-left: 1px;
+}

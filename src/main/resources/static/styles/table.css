@@ -1,0 +1,26 @@
+.table.tabela-numeros {
+  font-size: 19px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.table.tabela-numeros th,
+.table.tabela-numeros td {
+  padding: 4px;
+}
+
+body{
+  padding-top: 75px;
+}
+
+.search-container{
+  width: 490px;
+  display: block;
+  margin: 0 auto;
+}
+
+.back-button {
+  position: absolute;
+  top: 75px;
+  left: 900px;
+}

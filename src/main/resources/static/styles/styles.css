@@ -1,0 +1,46 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-container label {
+  width: 20%;
+  margin-right: 10px;
+}
+
+.input-container .form-control {
+  flex: 1;
+}
+
+.btn-primary {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.btn-editar {
+  background-color: green !important;
+  border-color: green !important;
+}
+
+.btn-deletar {
+  background-color: red !important;
+  border-color: red !important;
+}
+
+.btn-salvaredt {
+  background-color: blueviolet !important;
+  border-color: blueviolet !important;
+}
+
